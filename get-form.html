@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="get-body">
+    <form action="get.php" method="get" id="get-form">
+        <div class="input-field">
+            <label for="firstName">
+                First Name:
+            </label>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+
+        <div class="input-field">
+            <label for="lastName">
+                Last Name:
+            </label>
+            <input type="text" name="lastName" id="last">
+        </div>
+
+        <div class="input-field">
+            <label for="email">
+                Email:
+            </label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="input-field">
+            Gender:
+            <label for="male">
+                <input type="radio" name="gender" id="male" value="Male">Male
+            </label>
+
+            <label for="female">
+                <input type="radio" name="gender" id="female" value="Female">Female
+            </label>
+        </div>
+
+        <div class="input-field">
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <input type="submit" value="Send" id="get-btn">
+    </form>
+    <!-- <a id="get-link" href="get.php?birthdate=16-3-2003&age=22">click</a> -->
+</body>
+
+</html>
