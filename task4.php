@@ -100,12 +100,11 @@
 
     $num = 0;
     $num2 = 1;
-    $counts = 10;
 
     echo $num . ", ";
     echo $num2 . ", ";
 
-    for ($i = 1; $i <= $counts - 2; $i++) {
+    for ($i = 1; $i <= 8; $i++) {
         $next = $num + $num2;
         echo $next . ", ";
 
